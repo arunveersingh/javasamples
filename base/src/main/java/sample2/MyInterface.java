@@ -1,19 +1,26 @@
 package sample2;
 
 public interface MyInterface {
+    void method();
+
     default void methodOne() {
         commonMethod();
-        // Additional code for methodOne
     }
 
     default void methodTwo() {
         commonMethod();
-        // Additional code for methodTwo
+    }
+
+    static void staticMethod(){
+        System.out.println
+                ("Static method.");
     }
 
     private void commonMethod() {
-        System.out.println("Common functionality");
+        System.out.println
+                ("Common code.");
     }
+
 }
 
 
