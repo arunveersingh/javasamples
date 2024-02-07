@@ -1,4 +1,4 @@
-package sample2;
+package com.oopsfeedmecode.sample2;
 
 public interface MyInterface {
     void method();
@@ -19,6 +19,9 @@ public interface MyInterface {
     private void commonMethod() {
         System.out.println
                 ("Common code.");
+    // suggest what to do
+        System.out.println("Test");
+
     }
 
 }

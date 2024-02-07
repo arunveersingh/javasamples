@@ -1,4 +1,4 @@
-package sample3;
+package com.oopsfeedmecode.sample3;
 
 import java.io.IOException;
 import java.io.InputStream;

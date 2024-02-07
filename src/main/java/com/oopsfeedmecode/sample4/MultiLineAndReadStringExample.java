@@ -1,4 +1,4 @@
-package sample4;
+package com.oopsfeedmecode.sample4;
 
 import java.io.BufferedReader;
 import java.io.IOException;

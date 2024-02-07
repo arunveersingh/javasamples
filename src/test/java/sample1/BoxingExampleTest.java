@@ -1,11 +1,14 @@
 package sample1;
 
 import static org.junit.Assert.*;
+
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class BoxingExampleTest {
 
     @Test
+    @Ignore("Uncomment for practice")
     public void testAutoBoxingWith100() {
         // Auto-boxing:
         // Converting int to Integer
